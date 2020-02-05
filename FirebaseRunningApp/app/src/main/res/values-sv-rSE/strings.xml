@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RunningApp</string>
+    <string name="title_activity_login">Logga In</string>
+
+    <string name="home">Spring</string>
+    <string name="run">Information</string>
+    <string name="about">Om</string>
+
+    <string name="logouto">Logga ut</string>
+
+    <string name="information_txt">Använd Timer för att få tid \n Använd Karta för att Hitta</string>
+    <string name="about_txt">Det här är ett \n Running program</string>
+
+</resources>

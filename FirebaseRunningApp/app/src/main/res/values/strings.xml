@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RunningApp</string>
+
+    <string name="map_key" translatable="false">AIzaSyC-hqd56tVcEGK0z7sffbptHY6XpdbcCCU</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="home">Run</string>
+    <string name="run">Information</string>
+    <string name="about">About</string>
+
+    <string name="logouto">Logout</string>
+
+    <string name="information_txt">Use Timer to get time \n Use Map to track</string>
+    <string name="about_txt">This is a \n Running application</string>
+
+</resources>
