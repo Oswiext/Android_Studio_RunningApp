@@ -5,4 +5,4 @@ The mainactivity has a google maps fragment that ask permission where you are an
 A few changes were made, it used to have a layout bar with activity fragments, but it was not optimal for the applications purpose. there is also a menu item in mainactivity for logout. 
 
 ![](images/runningappfirebase.png)
-Thanks to google documentation, stackoverflow community and guides on blogs and streaming sites helping me making this project and learning!
+Thanks to google documentation, stackoverflow community, school and guides on blogs and streaming sites helping me making this project and learning!
