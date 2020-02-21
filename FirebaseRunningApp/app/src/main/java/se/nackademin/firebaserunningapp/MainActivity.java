@@ -161,6 +161,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         getLocationPermission();
     }
 
+    public void openDialog(){
+        ExampleDialog exampleDialog = new ExampleDialog();
+        exampleDialog.show(getSupportFragmentManager(), "Example Dialog");
+    }
+
+
+
+
     private void getDeviceLocation(){
         Log.d(TAG, "getDeviceLocation: getting the devices current location");
 
@@ -271,10 +279,21 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
                 finish();
                 return true;
+
+                //reset button sätter allt på noll men pausar innan viktigt
+
+            case R.id.About:
+                openDialog();
+
+            case R.id.Reset:
+                timeSwapBuff+=timeInMilliseconds;
+                startTime=0L;
+                timeInMilliseconds=0L;
+                timeSwapBuff=0;
+                updateTime=0L;
+                customHandler.removeCallbacks(updateTimerThread);
         }
 
         return false;
     }
-
-
 }
